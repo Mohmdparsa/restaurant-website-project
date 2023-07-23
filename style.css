@@ -1,0 +1,441 @@
+/* ------------------------------------------header & navbar part ------------------------------ */
+
+
+.nav-bar{
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    flex: content;
+    border-radius: 14px;
+    box-shadow: 0 0 4px grey;
+    display: flex;
+}
+
+.navbar-button {
+    display:inline-block;
+width: 40px;
+height: 40px;
+margin-top: 10px;
+margin-left: 1050px;
+box-shadow: 0 0 3px grey;
+cursor: pointer;
+border-radius: 10px;
+border: 1px solid gray;
+margin-right: 10px;
+transition: .5s;
+margin-left: 10px;
+}
+
+
+
+p{
+    color: whitesmoke;
+    display: flex;
+    margin-left: 30px;
+    margin-top: 5px;
+    font-size: 40px;
+    font-style: oblique;
+}
+
+#bars{
+    margin-left: 20px;
+    
+}
+#user{
+    margin-left: 20px;
+}
+#phone{
+    margin-left: 20px;
+}
+#instagram{
+    margin-left: 20px;
+}
+#instagram:hover{
+    background-color: rgb(254, 68, 93);
+}
+#whatsapp{
+    margin-left: 35px;
+}
+#whatsapp:hover{
+    background-color: rgb(165, 243, 49);
+}
+
+button:hover{
+    background-color: skyblue;
+    color: white;
+}
+
+#search{
+    height: 30px;
+    width: 300px;
+    margin-top : 13px;
+    margin-left: 560px;
+    border-color: gray;
+    box-shadow: 0 0 4px gray;
+    padding-left: 10px;
+    box-shadow: 0 0 3px grey;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+
+
+
+.Instagram{
+    width: 100px;
+    height: 5px;
+    background-color: black ;
+    border-radius: 15px;
+    margin-top: 5px;
+    margin-left: 1090px;
+    padding-top: 20px;
+    padding-left:32px;
+}
+
+
+#bars-container{
+    float:left;
+    z-index: 1;
+    position:absolute;
+    width: 300px;
+    height: 200px;
+    background-color: rgb(47, 47, 47);
+    color: white;
+    margin-top: 70px;
+    margin-left: 1030px;
+    border: none;
+    border-radius: 15px;
+    display: none;
+   /* transform: translate(-100%);  */
+}
+/* .show-sidebars{
+    transform: translate(0);
+} */
+
+.bars-button{
+    display: grid;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border-color: white;
+    margin-top: 2px;
+    transition: .3s;
+    box-shadow: 0 0 3px white;
+    padding: 10px;
+    cursor: pointer;
+    
+}
+
+#bars-1st{
+    margin-top: 15px;
+}
+
+#close-bars{
+    margin-left: 141px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: bolder; 
+    font-size: 20px;
+}
+
+#close-bars:hover{
+    color: red;
+
+}
+
+/*-----------------------------------------main-image---------------------------------------*/
+
+.main-image{
+    position: relative;
+    width: 100%;
+    height:600px;
+    background-image: url("20230618_005411.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+
+}
+#main-image-p1{
+    padding-top: 70px;
+    font-size: 80px;  
+}
+#main-image-p2{
+    font-size: 60px;
+}
+#main-image-p3{
+    font-size: 80px;
+}
+
+/* ----------------------------------------section-part-------------------------------------- */
+
+
+#section-div1{
+    display: flex;
+}
+
+
+.section-button{
+    width: 170px;
+    height: 170px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-color: gray;
+    border-radius: 150px;
+    box-shadow:  20px 10px 20px gray;
+    cursor: pointer;
+    
+}
+
+.food-name{
+    color: black;
+}
+/* pizza Btn */
+.pizza-div{
+  flex-direction: column;
+  margin-left:75px;
+}
+.pizza-div:hover{
+    transform:scale(1.1);
+    transition-duration: 1s;
+}
+#pizza{
+    background-image: url('main-image/top-view-pepperoni-pizza-with-mushroom-sausages-bell-pepper-olive-corn-black-wooden_141793-2158.jpg');
+    margin-top: 30px;
+}
+/* burger Btn */
+.burger-div{
+    flex-direction: column;
+     margin-left: 75px;
+}
+.burger-div:hover{
+    transform:scale(1.1);
+    transition-duration: 1s;
+}
+#burger{
+    background-image: url('main-image/l-intro-1653066580.jpg');
+     margin-top: 90px;
+}
+/* chicken */
+.chicken-div{
+    flex-direction: column;
+     margin-left: 75px;
+}
+.chicken-div:hover{
+    transform:scale(1.1);
+    transition-duration: 1s;
+}
+#chicken{
+    background-image: url('main-image/hot-and-spicy-chicken-e1598019670219.jpg');
+    margin-top: 30px;
+}
+ /* sandwich */
+ .sandwich-div{
+    flex-direction: column;
+    margin-left: 75px;
+ }
+ .sandwich-div:hover{
+    transform:scale(1.1);
+    transition-duration: 1s;
+ }
+#sandwich{
+    background-image: url('main-image/Hummus-Sandwich-013.jpg');
+    margin-top: 90px;
+}
+/* salad */
+.salad-div{
+    flex-direction: column;
+    margin-left: 75px;
+}
+.salad-div:hover{
+    transform:scale(1.1);
+    transition-duration: 1s;
+}
+#salad{
+    background-image: url('main-image/Homemade-Caesar-Salad-Dressing.jpg');
+    margin-top: 30px;
+}
+
+#section-div2{
+    display: flex;
+}
+/* drink */
+.drink-div{
+    flex-direction: column;
+    margin-left: 75px;
+}
+.drink-div:hover{
+    transform:scale(1.1);
+    transition-duration: 1s;
+}
+#drink{
+    background-image: url('main-image/Masala-Coke-Featured.jpg');
+    margin-top: 100px;
+    
+}
+/* soup */
+.soup-div{
+    flex-direction: column;
+    margin-left: 50px;
+}
+.soup-div:hover{
+    transform:scale(1.1);
+    transition-duration: 1s;
+}
+#soup{
+    background-image: url('main-image/Bx3hGmSNKeBA25yH8fYplf.jpg');
+    margin-top: 56px;
+}
+/* pasta */
+.pasta-div{
+    flex-direction: column;
+    margin-left: 75px;
+}
+.pasta-div:hover{
+    transform:scale(1.1);
+    transition-duration: 1s;
+}
+#pasta{
+    background-image: url('main-image/Pink_Pasta_Sauce2.jpg');
+    margin-top: 100px ; 
+}
+/* coffee */
+.coffee-div{
+    flex-direction: column;
+    margin-left: 75px;
+}
+.coffee-div:hover{
+    transform:scale(1.1);
+    transition-duration: 1s;
+}
+#coffee{
+    background-image: url('main-image/gettyimages-500740897.jpg');
+    margin-top: 56px ;
+}
+/* cake */
+.cake-div{
+    flex-direction: column;
+    margin-left: 75px; 
+}
+.cake-div:hover{
+    transform:scale(1.1);
+    transition-duration: 1s;
+}
+#cake{
+    background-image: url('main-image/chocolate-cake-slice-e1562794545746.jpg');
+    margin-top: 100px;
+}
+
+/*------------------------------- Menu------------------------------------ */
+
+
+.number-input{
+    border: none;
+    box-shadow: 0 0 4px gray;
+    border-radius: 8px;
+    padding:7px;
+    width: 60px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.menu-border{
+    border: 3px double black;
+    display: none;
+}
+.menu-image{
+    width: 300px;
+    height: 200px;
+    margin-right: 40px;
+    border-radius: 5px;
+}
+
+.menu-direction{
+    flex-direction: column;
+}
+
+.border-left{
+    padding-left:30px;
+    border-left: 2px solid gray;
+    height: 50px;
+ 
+}
+
+.menu-desc{
+    color: black;
+    font-size: 20px;
+}
+
+.menu-price{
+    margin-top: 70px;
+    margin-left: 50px;
+    color: black;
+    font-size: 30px;
+}
+
+
+/*----------------------------- record order button -----------------------------*/
+
+.record-order{
+    width: 100%;
+    height: 70px;
+    font-weight:bold;
+    box-shadow: 0 0 4px gray;
+}
+
+/* ---------------------fixed btn drop to top of the page------------------------ */
+
+.back-to-top-btn{
+    position:fixed;
+    bottom: 50px;
+    right: 45px;
+    border: none;
+    box-shadow: 0 0 10px rgb(255, 62, 62);
+    padding: 20px 20px;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(255, 62, 62);
+    cursor: pointer;
+    display: none;
+}
+.back-to-top-btn:hover{
+    color: white;
+    background-color: skyblue;
+    box-shadow: 0 0 10px skyblue;
+}
+
+/* ------------------------------------------footer part------------------------------- */
+.footer{
+    width: 100%;
+    height: 100px;
+    color:white;
+    background-color: black;
+    margin-top: 30px;
+    font-size: 18px;
+    
+}
+.address{
+   padding-top: 20px;
+    margin-left: 10px;
+}
+.phone-number{
+    padding-top: 20px;
+    margin-left: 10px;
+}
+.footer-span{
+    color: red;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
